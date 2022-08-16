@@ -26,7 +26,7 @@ def upload_file(img_name):
     access_token = "sl.BNZQLpycwnATwSaJJ30LPfEtdQcnaUBMzvUkM5XbkLmNiHHdiuS6Y5LJsmgHpJd5YIG1WcWz2D7PWJMghCV7Pi-YXk4KMsaq_trPo12dTAiSvUESp9PfZ-iQng4wqX7vafoM2HWHvMH-"
     file=img_name
     file_from=file
-    file_to="C:/Users/admin/Dropbox/text_files/"+(img_name)
+    file_to="/text_files/"+(img_name)
     dbx=dropbox.Dropbox(access_token)
 
     with open(file_from,'rb') as f:
